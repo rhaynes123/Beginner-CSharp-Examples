@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beginner-Csharp-InterviewQu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beginner-CSharp-InterviewQuestion-ShuffleAList", "Beginner-\Beginner-CSharp-InterviewQuestion-ShuffleAList.csproj", "{37487A29-914C-4ED9-B65D-C4D3B1ED5C80}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beginner-Csharp-InterviewQuestion-SortArray", "Beginner-Csharp-InterviewQuestion-SortArray\Beginner-Csharp-InterviewQuestion-SortArray.csproj", "{27C7AE0B-0591-4343-A355-17CEA58098D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{37487A29-914C-4ED9-B65D-C4D3B1ED5C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37487A29-914C-4ED9-B65D-C4D3B1ED5C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37487A29-914C-4ED9-B65D-C4D3B1ED5C80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27C7AE0B-0591-4343-A355-17CEA58098D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27C7AE0B-0591-4343-A355-17CEA58098D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27C7AE0B-0591-4343-A355-17CEA58098D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27C7AE0B-0591-4343-A355-17CEA58098D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
