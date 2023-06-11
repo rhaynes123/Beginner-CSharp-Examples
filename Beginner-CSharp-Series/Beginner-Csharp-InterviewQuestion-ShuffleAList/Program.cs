@@ -8,6 +8,7 @@ List<int> ShuffleWithLinq(List<int> inputList)
     return inputList.OrderBy(input => rnd.Next()).ToList();
 }
 // Based of the Fisher Yates Algorithim
+
 // O(N) complexity
 List<int> ShuffleWithoutLinq(List<int> inputList)
 {
