@@ -28,4 +28,19 @@ int reverseWithoutLinq(int input)
 int reversednumerWithOutLinq = reverseWithoutLinq(1234323);
 Console.WriteLine($"No Linq Result: {reversednumerWithOutLinq}");
 
+int reversednumberWithoutLinq2(int input)
+{
+    string inputString = input.ToString();
+    string reversedString = "";
+    for (int i = inputString.Length -1 ; i >= 0; i--)
+    {
+        reversedString += inputString[i];
+    }
+    return int.Parse(reversedString);
+}
+
+;
+int result  = reversednumberWithoutLinq2(1234323);
+
+Console.WriteLine($"No Linq Result 2: {result}");
 Console.ReadKey();
